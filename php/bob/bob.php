@@ -2,7 +2,7 @@
 
 class Bob {
 
-  function respondTo($gambit)
+  function respondTo(string $gambit) : string
   {
     $gambit = $this->mb_trim($gambit);
 
@@ -25,23 +25,23 @@ class Bob {
     return 'Whatever.';
   }
 
-  private function isShouting($utterance)
+  private function isShouting(string $utterance) : bool
   {
     return $utterance === mb_strtoupper($utterance)
         && $utterance !== mb_strtolower($utterance);
   }
 
-  private function isQuestion($utterance)
+  private function isQuestion(string $utterance): bool
   {
     return mb_substr($utterance, -1) === '?';
   }
 
-  private function isSilence($utterance)
+  private function isSilence(string $utterance) : bool
   {
     return mb_strlen($utterance) === 0;
   }
 
-  private function mb_trim($str) {
+  private function mb_trim(string $str) : string {
     return preg_replace('/^[\p{Z}\s]+|[\p{Z}\s]+$/u','',$str);
   }
 }
