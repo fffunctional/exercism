@@ -1,0 +1,689 @@
+
+==================== FINAL INTERFACE ====================
+2018-08-31 09:46:06.626666 UTC
+
+interface main:Paths_bob 8043
+  interface hash: 86b21a3f425f566bb003a222f199bdb5
+  ABI hash: 2ed70749becc6807e285e438f56ab0a5
+  export-list hash: 903e0c15f53e32136e740dbca439657f
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 38bd2c09f7884c17af9ca3c47b3025ee
+  opt_hash: 14e536840aca4e889cad654e6f9b79c1
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Paths_bob.getBinDir
+  Paths_bob.getDataDir
+  Paths_bob.getDataFileName
+  Paths_bob.getDynLibDir
+  Paths_bob.getLibDir
+  Paths_bob.getLibexecDir
+  Paths_bob.getSysconfDir
+  Paths_bob.version
+module dependencies:
+package dependencies: base-4.11.1.0* ghc-prim-0.5.2.0
+                      integer-gmp-1.0.2.0
+orphans: base-4.11.1.0:GHC.Float base-4.11.1.0:GHC.Base
+family instance modules: base-4.11.1.0:Control.Applicative
+                         base-4.11.1.0:Data.Functor.Const
+                         base-4.11.1.0:Data.Functor.Identity base-4.11.1.0:Data.Monoid
+                         base-4.11.1.0:Data.Semigroup.Internal base-4.11.1.0:Data.Version
+                         base-4.11.1.0:GHC.Generics base-4.11.1.0:GHC.IO.Exception
+import  -/  base-4.11.1.0:Control.Exception 3d8e6cda20877f889f07bc7c0f5cac36
+import  -/  base-4.11.1.0:Data.Version 26b96b3dd83a23703e0b8110475fc04a
+import  -/  base-4.11.1.0:GHC.Base 604111500e81281298777e721c75643b
+import  -/  base-4.11.1.0:GHC.IO 1d5542cc02075c5e948018bfacea89c1
+import  -/  base-4.11.1.0:GHC.IO.Exception acc060dca2e46d8b8275d06ee7d5d60d
+import  -/  base-4.11.1.0:Prelude 0750c25585e2b797cd78291d423d39dd
+import  -/  base-4.11.1.0:System.Environment 052ec29b676ed8efc1decd97140a27e3
+import  -/  ghc-prim-0.5.2.0:GHC.Types d9b3023de7feae4a5308d643da5543f7
+addDependentFile "/Users/mmarcus/.stack/programs/x86_64-osx/ghc-8.4.3/lib/ghc-8.4.3/include/ghcversion.h" 61cc4580d32de09862d412848a79cd26
+addDependentFile ".stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/test/autogen/cabal_macros.h" 9fd4def49f4da0109cbfe84aadfa0939
+cbd1ea2d1edede32675fae99752330eb
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Paths_bob.$trModule3
+                   Paths_bob.$trModule1) -}
+bf3383fc4264ac0cb6b01265d0b8ea5b
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Paths_bob.$trModule2) -}
+475649444341eb1a3d42c5412295333b
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Paths_bob"#) -}
+1376e6eece1b8470ceb70fcd9ad3a8aa
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Paths_bob.$trModule4) -}
+c90ffbd8ebff5370ee4496b6c247af6d
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("main"#) -}
+92403a7724c934a4ea7ba9c0056bd24b
+  getBinDir :: GHC.Types.IO GHC.IO.FilePath
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Paths_bob.getBinDir1
+                  `cast`
+                (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
+ef3f1aa3f6a4aae498d2cfd7fd45aa2a
+  getBinDir1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (eta :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 GHC.Prim.catch#
+                   @ GHC.Base.String
+                   @ GHC.Exception.SomeException
+                   Paths_bob.getBinDir5
+                   Paths_bob.getBinDir2
+                   eta) -}
+d7ec1d6363ffdfbfbd5cd8f2d1df80a6
+  getBinDir2 ::
+    GHC.Exception.SomeException
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 2, Strictness: <S,1*U><S,U>,
+     Unfolding: (\ (e1 :: GHC.Exception.SomeException)[OneShot]
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case e1 of wild { GHC.Exception.SomeException e2 $dException1 e3 ->
+                 case Data.Typeable.Internal.typeRepFingerprint
+                        @ *
+                        @ e2
+                        (GHC.Exception.$p1Exception @ e2 $dException1)
+                          `cast`
+                        (Data.Typeable.Internal.N:Typeable[0] <*>_N <e2>_N) of wild1 { GHC.Fingerprint.Type.Fingerprint dt dt1 ->
+                 case GHC.IO.Exception.$fExceptionIOException4 of wild2 { GHC.Fingerprint.Type.Fingerprint dt2 dt3 ->
+                 case GHC.Prim.eqWord# dt dt2 of lwild {
+                   DEFAULT
+                   -> GHC.Prim.raiseIO#
+                        @ GHC.Exception.SomeException
+                        @ GHC.Base.String
+                        wild
+                        eta
+                   1#
+                   -> case GHC.Prim.eqWord# dt1 dt3 of lwild1 {
+                        DEFAULT
+                        -> GHC.Prim.raiseIO#
+                             @ GHC.Exception.SomeException
+                             @ GHC.Base.String
+                             wild
+                             eta
+                        1# -> (# eta, Paths_bob.getBinDir3 #) } } } } }) -}
+c8a2b39dc98da985d85b4bf52f7ae955
+  getBinDir3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Paths_bob.getBinDir4) -}
+0952c9636fa3630f5ed03f74c00af0df
+  getBinDir4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("/Users/mmarcus/Exercism/haskell/bob/.stack-work/install/x86_64-osx/lts-12.4/8.4.3/bin"#) -}
+deb5d068cccdd1dbd443aba8a967e22f
+  getBinDir5 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case (GHC.Magic.noinline
+                         @ (GHC.Types.IO GHC.IO.Encoding.Types.TextEncoding)
+                         GHC.IO.Encoding.getForeignEncoding)
+                        `cast`
+                      (GHC.Types.N:IO[0] <GHC.IO.Encoding.Types.TextEncoding>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.Foreign.charIsRepresentable3
+                        @ (GHC.Base.Maybe GHC.Base.String)
+                        ipv1
+                        Paths_bob.getBinDir6
+                        System.Environment.getEnv3
+                          `cast`
+                        (<Foreign.C.String.CString>_R
+                         ->_R Sym (GHC.Types.N:IO[0] <GHC.Base.Maybe GHC.Base.String>_R))
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case ipv3 of wild {
+                   GHC.Base.Nothing
+                   -> System.Environment.getEnv2 ipv2 Paths_bob.getBinDir6
+                   GHC.Base.Just x -> (# ipv2, x #) } } }) -}
+c34a6ae9fc4e3385aa379d858ae795ba
+  getBinDir6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Paths_bob.getBinDir7) -}
+702c52197d75561af8c0100f1b876aac
+  getBinDir7 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("bob_bindir"#) -}
+4c4bb91139d3164501d2d1be143c6b4e
+  getDataDir :: GHC.Types.IO GHC.IO.FilePath
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Paths_bob.getDataDir1
+                  `cast`
+                (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
+073a1d6e3a130791c301fb9ea9ec3253
+  getDataDir1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (eta :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 GHC.Prim.catch#
+                   @ GHC.Base.String
+                   @ GHC.Exception.SomeException
+                   Paths_bob.getDataDir5
+                   Paths_bob.getDataDir2
+                   eta) -}
+835bfd88393000721b375068e748c639
+  getDataDir2 ::
+    GHC.Exception.SomeException
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 2, Strictness: <S,1*U><S,U>,
+     Unfolding: (\ (e1 :: GHC.Exception.SomeException)[OneShot]
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case e1 of wild { GHC.Exception.SomeException e2 $dException1 e3 ->
+                 case Data.Typeable.Internal.typeRepFingerprint
+                        @ *
+                        @ e2
+                        (GHC.Exception.$p1Exception @ e2 $dException1)
+                          `cast`
+                        (Data.Typeable.Internal.N:Typeable[0] <*>_N <e2>_N) of wild1 { GHC.Fingerprint.Type.Fingerprint dt dt1 ->
+                 case GHC.IO.Exception.$fExceptionIOException4 of wild2 { GHC.Fingerprint.Type.Fingerprint dt2 dt3 ->
+                 case GHC.Prim.eqWord# dt dt2 of lwild {
+                   DEFAULT
+                   -> GHC.Prim.raiseIO#
+                        @ GHC.Exception.SomeException
+                        @ GHC.Base.String
+                        wild
+                        eta
+                   1#
+                   -> case GHC.Prim.eqWord# dt1 dt3 of lwild1 {
+                        DEFAULT
+                        -> GHC.Prim.raiseIO#
+                             @ GHC.Exception.SomeException
+                             @ GHC.Base.String
+                             wild
+                             eta
+                        1# -> (# eta, Paths_bob.getDataDir3 #) } } } } }) -}
+d46b79ed90ecca723f5bf0753e176bac
+  getDataDir3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Paths_bob.getDataDir4) -}
+e726aac8e9811834215f82959fbc2520
+  getDataDir4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("/Users/mmarcus/Exercism/haskell/bob/.stack-work/install/x86_64-osx/lts-12.4/8.4.3/share/x86_64-osx-ghc-8.4.3/bob-1.2.0.5"#) -}
+11032d2556bb60a7ee39874a053f4949
+  getDataDir5 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case (GHC.Magic.noinline
+                         @ (GHC.Types.IO GHC.IO.Encoding.Types.TextEncoding)
+                         GHC.IO.Encoding.getForeignEncoding)
+                        `cast`
+                      (GHC.Types.N:IO[0] <GHC.IO.Encoding.Types.TextEncoding>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.Foreign.charIsRepresentable3
+                        @ (GHC.Base.Maybe GHC.Base.String)
+                        ipv1
+                        Paths_bob.getDataDir6
+                        System.Environment.getEnv3
+                          `cast`
+                        (<Foreign.C.String.CString>_R
+                         ->_R Sym (GHC.Types.N:IO[0] <GHC.Base.Maybe GHC.Base.String>_R))
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case ipv3 of wild {
+                   GHC.Base.Nothing
+                   -> System.Environment.getEnv2 ipv2 Paths_bob.getDataDir6
+                   GHC.Base.Just x -> (# ipv2, x #) } } }) -}
+23bc753277e5b5003f7603a6af162b63
+  getDataDir6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Paths_bob.getDataDir7) -}
+067405bbc6ffb0049b421e47d54645c8
+  getDataDir7 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("bob_datadir"#) -}
+abdb1b213b4aa7249c4d5a083ad02cd7
+  getDataFileName :: GHC.IO.FilePath -> GHC.Types.IO GHC.IO.FilePath
+  {- Arity: 2, Strictness: <L,U><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Paths_bob.getDataFileName1
+                  `cast`
+                (<GHC.IO.FilePath>_R
+                 ->_R Sym (GHC.Types.N:IO[0] <GHC.IO.FilePath>_R)) -}
+d3bc39b52f27dc682ca301655011a7c7
+  getDataFileName1 ::
+    GHC.IO.FilePath
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.IO.FilePath #)
+  {- Arity: 2, Strictness: <L,U><S,U>,
+     Unfolding: (\ (name :: GHC.IO.FilePath)
+                   (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case GHC.Prim.catch#
+                        @ GHC.Base.String
+                        @ GHC.Exception.SomeException
+                        Paths_bob.getDataDir5
+                        Paths_bob.getDataDir2
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 (# ipv,
+                    GHC.Base.++
+                      @ GHC.Types.Char
+                      ipv1
+                      (GHC.CString.unpackAppendCString#
+                         Paths_bob.getDataFileName2
+                         name) #) }) -}
+6af1adbbf0d2fbc8773365da7de8ccf3
+  getDataFileName2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("/"#) -}
+40d34b43b07d2c7101122740a26c071f
+  getDynLibDir :: GHC.Types.IO GHC.IO.FilePath
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Paths_bob.getDynLibDir1
+                  `cast`
+                (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
+d1f4794fa0a462873e8b674a26b262c9
+  getDynLibDir1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (eta :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 GHC.Prim.catch#
+                   @ GHC.Base.String
+                   @ GHC.Exception.SomeException
+                   Paths_bob.getDynLibDir5
+                   Paths_bob.getDynLibDir2
+                   eta) -}
+558cf63a27953e59424594678ddc63ff
+  getDynLibDir2 ::
+    GHC.Exception.SomeException
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 2, Strictness: <S,1*U><S,U>,
+     Unfolding: (\ (e1 :: GHC.Exception.SomeException)[OneShot]
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case e1 of wild { GHC.Exception.SomeException e2 $dException1 e3 ->
+                 case Data.Typeable.Internal.typeRepFingerprint
+                        @ *
+                        @ e2
+                        (GHC.Exception.$p1Exception @ e2 $dException1)
+                          `cast`
+                        (Data.Typeable.Internal.N:Typeable[0] <*>_N <e2>_N) of wild1 { GHC.Fingerprint.Type.Fingerprint dt dt1 ->
+                 case GHC.IO.Exception.$fExceptionIOException4 of wild2 { GHC.Fingerprint.Type.Fingerprint dt2 dt3 ->
+                 case GHC.Prim.eqWord# dt dt2 of lwild {
+                   DEFAULT
+                   -> GHC.Prim.raiseIO#
+                        @ GHC.Exception.SomeException
+                        @ GHC.Base.String
+                        wild
+                        eta
+                   1#
+                   -> case GHC.Prim.eqWord# dt1 dt3 of lwild1 {
+                        DEFAULT
+                        -> GHC.Prim.raiseIO#
+                             @ GHC.Exception.SomeException
+                             @ GHC.Base.String
+                             wild
+                             eta
+                        1# -> (# eta, Paths_bob.getDynLibDir3 #) } } } } }) -}
+6ba73b7bdfcb6b4d717f70244198ace4
+  getDynLibDir3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Paths_bob.getDynLibDir4) -}
+0548aa26ccc242c2de30037f1a4f164c
+  getDynLibDir4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("/Users/mmarcus/Exercism/haskell/bob/.stack-work/install/x86_64-osx/lts-12.4/8.4.3/lib/x86_64-osx-ghc-8.4.3"#) -}
+a0f404cdbda00e28f8f0f2b5572ed719
+  getDynLibDir5 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case (GHC.Magic.noinline
+                         @ (GHC.Types.IO GHC.IO.Encoding.Types.TextEncoding)
+                         GHC.IO.Encoding.getForeignEncoding)
+                        `cast`
+                      (GHC.Types.N:IO[0] <GHC.IO.Encoding.Types.TextEncoding>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.Foreign.charIsRepresentable3
+                        @ (GHC.Base.Maybe GHC.Base.String)
+                        ipv1
+                        Paths_bob.getDynLibDir6
+                        System.Environment.getEnv3
+                          `cast`
+                        (<Foreign.C.String.CString>_R
+                         ->_R Sym (GHC.Types.N:IO[0] <GHC.Base.Maybe GHC.Base.String>_R))
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case ipv3 of wild {
+                   GHC.Base.Nothing
+                   -> System.Environment.getEnv2 ipv2 Paths_bob.getDynLibDir6
+                   GHC.Base.Just x -> (# ipv2, x #) } } }) -}
+04017d4d090b46b3f9dc12f883ec2bdb
+  getDynLibDir6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Paths_bob.getDynLibDir7) -}
+d52109d0b9886223b1f7853005de2a79
+  getDynLibDir7 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("bob_dynlibdir"#) -}
+486f06b92398bac6755ea185a75947c7
+  getLibDir :: GHC.Types.IO GHC.IO.FilePath
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Paths_bob.getLibDir1
+                  `cast`
+                (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
+8113bedcdd4432d29a90edf7e25a35b3
+  getLibDir1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (eta :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 GHC.Prim.catch#
+                   @ GHC.Base.String
+                   @ GHC.Exception.SomeException
+                   Paths_bob.getLibDir5
+                   Paths_bob.getLibDir2
+                   eta) -}
+2a9d4a79995f7a1460cf9c7dd44dbb56
+  getLibDir2 ::
+    GHC.Exception.SomeException
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 2, Strictness: <S,1*U><S,U>,
+     Unfolding: (\ (e1 :: GHC.Exception.SomeException)[OneShot]
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case e1 of wild { GHC.Exception.SomeException e2 $dException1 e3 ->
+                 case Data.Typeable.Internal.typeRepFingerprint
+                        @ *
+                        @ e2
+                        (GHC.Exception.$p1Exception @ e2 $dException1)
+                          `cast`
+                        (Data.Typeable.Internal.N:Typeable[0] <*>_N <e2>_N) of wild1 { GHC.Fingerprint.Type.Fingerprint dt dt1 ->
+                 case GHC.IO.Exception.$fExceptionIOException4 of wild2 { GHC.Fingerprint.Type.Fingerprint dt2 dt3 ->
+                 case GHC.Prim.eqWord# dt dt2 of lwild {
+                   DEFAULT
+                   -> GHC.Prim.raiseIO#
+                        @ GHC.Exception.SomeException
+                        @ GHC.Base.String
+                        wild
+                        eta
+                   1#
+                   -> case GHC.Prim.eqWord# dt1 dt3 of lwild1 {
+                        DEFAULT
+                        -> GHC.Prim.raiseIO#
+                             @ GHC.Exception.SomeException
+                             @ GHC.Base.String
+                             wild
+                             eta
+                        1# -> (# eta, Paths_bob.getLibDir3 #) } } } } }) -}
+4dff4fc9c756249385420bce09be2df1
+  getLibDir3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Paths_bob.getLibDir4) -}
+b945ee3f43d1a1ef3b37d260f1a28a89
+  getLibDir4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("/Users/mmarcus/Exercism/haskell/bob/.stack-work/install/x86_64-osx/lts-12.4/8.4.3/lib/x86_64-osx-ghc-8.4.3/bob-1.2.0.5-J02LGAZYYHp4CtKK8O6ZVj-test"#) -}
+153e2e24271eedffe77d1530f38453d4
+  getLibDir5 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case (GHC.Magic.noinline
+                         @ (GHC.Types.IO GHC.IO.Encoding.Types.TextEncoding)
+                         GHC.IO.Encoding.getForeignEncoding)
+                        `cast`
+                      (GHC.Types.N:IO[0] <GHC.IO.Encoding.Types.TextEncoding>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.Foreign.charIsRepresentable3
+                        @ (GHC.Base.Maybe GHC.Base.String)
+                        ipv1
+                        Paths_bob.getLibDir6
+                        System.Environment.getEnv3
+                          `cast`
+                        (<Foreign.C.String.CString>_R
+                         ->_R Sym (GHC.Types.N:IO[0] <GHC.Base.Maybe GHC.Base.String>_R))
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case ipv3 of wild {
+                   GHC.Base.Nothing
+                   -> System.Environment.getEnv2 ipv2 Paths_bob.getLibDir6
+                   GHC.Base.Just x -> (# ipv2, x #) } } }) -}
+26ea71173fae09ea059e3081d86796dd
+  getLibDir6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Paths_bob.getLibDir7) -}
+48b8b4a6361b50e87cd7d08b99fb3f1a
+  getLibDir7 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("bob_libdir"#) -}
+18d3a3d38f961eedb1949b7c6ca15bae
+  getLibexecDir :: GHC.Types.IO GHC.IO.FilePath
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Paths_bob.getLibexecDir1
+                  `cast`
+                (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
+15a66962896c6d6e2e39296e08101332
+  getLibexecDir1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (eta :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 GHC.Prim.catch#
+                   @ GHC.Base.String
+                   @ GHC.Exception.SomeException
+                   Paths_bob.getLibexecDir5
+                   Paths_bob.getLibexecDir2
+                   eta) -}
+b2a52a465545f4112d7d5f5e54ac6589
+  getLibexecDir2 ::
+    GHC.Exception.SomeException
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 2, Strictness: <S,1*U><S,U>,
+     Unfolding: (\ (e1 :: GHC.Exception.SomeException)[OneShot]
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case e1 of wild { GHC.Exception.SomeException e2 $dException1 e3 ->
+                 case Data.Typeable.Internal.typeRepFingerprint
+                        @ *
+                        @ e2
+                        (GHC.Exception.$p1Exception @ e2 $dException1)
+                          `cast`
+                        (Data.Typeable.Internal.N:Typeable[0] <*>_N <e2>_N) of wild1 { GHC.Fingerprint.Type.Fingerprint dt dt1 ->
+                 case GHC.IO.Exception.$fExceptionIOException4 of wild2 { GHC.Fingerprint.Type.Fingerprint dt2 dt3 ->
+                 case GHC.Prim.eqWord# dt dt2 of lwild {
+                   DEFAULT
+                   -> GHC.Prim.raiseIO#
+                        @ GHC.Exception.SomeException
+                        @ GHC.Base.String
+                        wild
+                        eta
+                   1#
+                   -> case GHC.Prim.eqWord# dt1 dt3 of lwild1 {
+                        DEFAULT
+                        -> GHC.Prim.raiseIO#
+                             @ GHC.Exception.SomeException
+                             @ GHC.Base.String
+                             wild
+                             eta
+                        1# -> (# eta, Paths_bob.getLibexecDir3 #) } } } } }) -}
+da81c7a9d221849610f469e9ca353251
+  getLibexecDir3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Paths_bob.getLibexecDir4) -}
+2f0651ec72b622981fad29d2f711ee01
+  getLibexecDir4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("/Users/mmarcus/Exercism/haskell/bob/.stack-work/install/x86_64-osx/lts-12.4/8.4.3/libexec/x86_64-osx-ghc-8.4.3/bob-1.2.0.5"#) -}
+d237097330c448b16ce28b76d4a98410
+  getLibexecDir5 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case (GHC.Magic.noinline
+                         @ (GHC.Types.IO GHC.IO.Encoding.Types.TextEncoding)
+                         GHC.IO.Encoding.getForeignEncoding)
+                        `cast`
+                      (GHC.Types.N:IO[0] <GHC.IO.Encoding.Types.TextEncoding>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.Foreign.charIsRepresentable3
+                        @ (GHC.Base.Maybe GHC.Base.String)
+                        ipv1
+                        Paths_bob.getLibexecDir6
+                        System.Environment.getEnv3
+                          `cast`
+                        (<Foreign.C.String.CString>_R
+                         ->_R Sym (GHC.Types.N:IO[0] <GHC.Base.Maybe GHC.Base.String>_R))
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case ipv3 of wild {
+                   GHC.Base.Nothing
+                   -> System.Environment.getEnv2 ipv2 Paths_bob.getLibexecDir6
+                   GHC.Base.Just x -> (# ipv2, x #) } } }) -}
+6268919b94191088d700e095cdb883e6
+  getLibexecDir6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Paths_bob.getLibexecDir7) -}
+42dda33aa6a0549b50820f1f3ae228c4
+  getLibexecDir7 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("bob_libexecdir"#) -}
+dbf626b5300415e4a1e3653a2e441b56
+  getSysconfDir :: GHC.Types.IO GHC.IO.FilePath
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Paths_bob.getSysconfDir1
+                  `cast`
+                (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
+a8cebc23575707a264645faa473fc20f
+  getSysconfDir1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (eta :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 GHC.Prim.catch#
+                   @ GHC.Base.String
+                   @ GHC.Exception.SomeException
+                   Paths_bob.getSysconfDir5
+                   Paths_bob.getSysconfDir2
+                   eta) -}
+87416ad1d074b11e066bbe9bcacfa818
+  getSysconfDir2 ::
+    GHC.Exception.SomeException
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 2, Strictness: <S,1*U><S,U>,
+     Unfolding: (\ (e1 :: GHC.Exception.SomeException)[OneShot]
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case e1 of wild { GHC.Exception.SomeException e2 $dException1 e3 ->
+                 case Data.Typeable.Internal.typeRepFingerprint
+                        @ *
+                        @ e2
+                        (GHC.Exception.$p1Exception @ e2 $dException1)
+                          `cast`
+                        (Data.Typeable.Internal.N:Typeable[0] <*>_N <e2>_N) of wild1 { GHC.Fingerprint.Type.Fingerprint dt dt1 ->
+                 case GHC.IO.Exception.$fExceptionIOException4 of wild2 { GHC.Fingerprint.Type.Fingerprint dt2 dt3 ->
+                 case GHC.Prim.eqWord# dt dt2 of lwild {
+                   DEFAULT
+                   -> GHC.Prim.raiseIO#
+                        @ GHC.Exception.SomeException
+                        @ GHC.Base.String
+                        wild
+                        eta
+                   1#
+                   -> case GHC.Prim.eqWord# dt1 dt3 of lwild1 {
+                        DEFAULT
+                        -> GHC.Prim.raiseIO#
+                             @ GHC.Exception.SomeException
+                             @ GHC.Base.String
+                             wild
+                             eta
+                        1# -> (# eta, Paths_bob.getSysconfDir3 #) } } } } }) -}
+1de897c004c7395a75521cf3de05c11a
+  getSysconfDir3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Paths_bob.getSysconfDir4) -}
+ae7921b00b32ab7147c222f28274e3ac
+  getSysconfDir4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("/Users/mmarcus/Exercism/haskell/bob/.stack-work/install/x86_64-osx/lts-12.4/8.4.3/etc"#) -}
+7358a40c8828f3c2b7734376712ab033
+  getSysconfDir5 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case (GHC.Magic.noinline
+                         @ (GHC.Types.IO GHC.IO.Encoding.Types.TextEncoding)
+                         GHC.IO.Encoding.getForeignEncoding)
+                        `cast`
+                      (GHC.Types.N:IO[0] <GHC.IO.Encoding.Types.TextEncoding>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.Foreign.charIsRepresentable3
+                        @ (GHC.Base.Maybe GHC.Base.String)
+                        ipv1
+                        Paths_bob.getSysconfDir6
+                        System.Environment.getEnv3
+                          `cast`
+                        (<Foreign.C.String.CString>_R
+                         ->_R Sym (GHC.Types.N:IO[0] <GHC.Base.Maybe GHC.Base.String>_R))
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case ipv3 of wild {
+                   GHC.Base.Nothing
+                   -> System.Environment.getEnv2 ipv2 Paths_bob.getSysconfDir6
+                   GHC.Base.Just x -> (# ipv2, x #) } } }) -}
+047c6fd4f01e73d8ac83f0dc2b23d0f5
+  getSysconfDir6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Paths_bob.getSysconfDir7) -}
+c38456c7a50601c8564a21e032b27bd5
+  getSysconfDir7 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("bob_sysconfdir"#) -}
+e96caf327380cdb3ab1905ade674e0d3
+  version :: Data.Version.Version
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (Data.Version.Version
+                   Paths_bob.version1
+                   (GHC.Types.[] @ GHC.Base.String)) -}
+ec6c8762b28624e49dbee19fcd0321b5
+  version1 :: [GHC.Types.Int]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Int
+                   Paths_bob.version8
+                   Paths_bob.version2) -}
+5796b20f922fd2a324f03e1486223478
+  version2 :: [GHC.Types.Int]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Int
+                   Paths_bob.version7
+                   Paths_bob.version3) -}
+7b2c26a183ae215619a3579f6622ee8e
+  version3 :: [GHC.Types.Int]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Int
+                   Paths_bob.version6
+                   Paths_bob.version4) -}
+4686344ea71b6222c3d513205fc3c58a
+  version4 :: [GHC.Types.Int]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Int
+                   Paths_bob.version5
+                   (GHC.Types.[] @ GHC.Types.Int)) -}
+f68b2b3be2441ca3e09263fab2a720e2
+  version5 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 5#) -}
+1b2a71330a25ca922683632b1a01bfce
+  version6 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
+e44e4d546dc23c69f427f5629344ffff
+  version7 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 2#) -}
+e11053ed8c48ce46f10b3aeb533c2bf2
+  version8 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 1#) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

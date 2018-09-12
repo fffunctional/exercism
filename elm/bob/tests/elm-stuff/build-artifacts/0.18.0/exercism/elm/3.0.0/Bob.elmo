@@ -1,0 +1,18 @@
+var _exercism$elm$Bob$isSilence = function (_p0) {
+	return _elm_lang$core$String$isEmpty(
+		_elm_lang$core$String$trim(_p0));
+};
+var _exercism$elm$Bob$isQuestion = _elm_lang$core$String$endsWith('?');
+var _exercism$elm$Bob$isShouting = function (remark) {
+	return _elm_lang$core$Native_Utils.eq(
+		remark,
+		_elm_lang$core$String$toUpper(remark)) && (!_elm_lang$core$Native_Utils.eq(
+		remark,
+		_elm_lang$core$String$toLower(remark)));
+};
+var _exercism$elm$Bob$isForcefulQuestion = function (remark) {
+	return _exercism$elm$Bob$isShouting(remark) && _exercism$elm$Bob$isQuestion(remark);
+};
+var _exercism$elm$Bob$hey = function (remark) {
+	return _exercism$elm$Bob$isSilence(remark) ? 'Fine. Be that way!' : (_exercism$elm$Bob$isForcefulQuestion(remark) ? 'Calm down, I know what I\'m doing!' : (_exercism$elm$Bob$isQuestion(remark) ? 'Sure.' : (_exercism$elm$Bob$isShouting(remark) ? 'Whoa, chill out!' : 'Whatever.')));
+};

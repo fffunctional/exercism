@@ -1,0 +1,709 @@
+
+==================== FINAL INTERFACE ====================
+2018-09-11 10:04:46.064038 UTC
+
+interface main:Paths_collatz_conjecture 8043
+  interface hash: 80dc3bf92dc2bf7372905a1cee156e7d
+  ABI hash: 5b34a03cd3c96703dfc4c62a85b61fd0
+  export-list hash: ce4bd7f7224b4bf1fd5b7aa222aec325
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 38bd2c09f7884c17af9ca3c47b3025ee
+  opt_hash: 14e536840aca4e889cad654e6f9b79c1
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Paths_collatz_conjecture.getBinDir
+  Paths_collatz_conjecture.getDataDir
+  Paths_collatz_conjecture.getDataFileName
+  Paths_collatz_conjecture.getDynLibDir
+  Paths_collatz_conjecture.getLibDir
+  Paths_collatz_conjecture.getLibexecDir
+  Paths_collatz_conjecture.getSysconfDir
+  Paths_collatz_conjecture.version
+module dependencies:
+package dependencies: base-4.11.1.0* ghc-prim-0.5.2.0
+                      integer-gmp-1.0.2.0
+orphans: base-4.11.1.0:GHC.Float base-4.11.1.0:GHC.Base
+family instance modules: base-4.11.1.0:Control.Applicative
+                         base-4.11.1.0:Data.Functor.Const
+                         base-4.11.1.0:Data.Functor.Identity base-4.11.1.0:Data.Monoid
+                         base-4.11.1.0:Data.Semigroup.Internal base-4.11.1.0:Data.Version
+                         base-4.11.1.0:GHC.Generics base-4.11.1.0:GHC.IO.Exception
+import  -/  base-4.11.1.0:Control.Exception 3d8e6cda20877f889f07bc7c0f5cac36
+import  -/  base-4.11.1.0:Data.Version 26b96b3dd83a23703e0b8110475fc04a
+import  -/  base-4.11.1.0:GHC.Base 604111500e81281298777e721c75643b
+import  -/  base-4.11.1.0:GHC.IO 1d5542cc02075c5e948018bfacea89c1
+import  -/  base-4.11.1.0:GHC.IO.Exception acc060dca2e46d8b8275d06ee7d5d60d
+import  -/  base-4.11.1.0:Prelude 0750c25585e2b797cd78291d423d39dd
+import  -/  base-4.11.1.0:System.Environment 052ec29b676ed8efc1decd97140a27e3
+import  -/  ghc-prim-0.5.2.0:GHC.Types d9b3023de7feae4a5308d643da5543f7
+addDependentFile "/Users/mmarcus/.stack/programs/x86_64-osx/ghc-8.4.3/lib/ghc-8.4.3/include/ghcversion.h" 61cc4580d32de09862d412848a79cd26
+addDependentFile ".stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/test/autogen/cabal_macros.h" 7fa3e427699479381967df37b14450e0
+2e8a3e368418486e8bdbc964cbeffe6d
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Paths_collatz_conjecture.$trModule3
+                   Paths_collatz_conjecture.$trModule1) -}
+19bcb64acc2f6cacb10a09cb42afe488
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Paths_collatz_conjecture.$trModule2) -}
+4628def03c0b8a64ed77e65dfbe7abca
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Paths_collatz_conjecture"#) -}
+5df833b20dda81989b41fbc421a8a72a
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Paths_collatz_conjecture.$trModule4) -}
+1bc2a66666f3d70b028b9ed3d05ab8d5
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("main"#) -}
+981498d9823e46ccfc1fb3e163b0a13c
+  getBinDir :: GHC.Types.IO GHC.IO.FilePath
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Paths_collatz_conjecture.getBinDir1
+                  `cast`
+                (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
+fccc46af458cc7f8c3f336f8bb138bb7
+  getBinDir1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (eta :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 GHC.Prim.catch#
+                   @ GHC.Base.String
+                   @ GHC.Exception.SomeException
+                   Paths_collatz_conjecture.getBinDir5
+                   Paths_collatz_conjecture.getBinDir2
+                   eta) -}
+26ae3a443975503089ed603b0c44b024
+  getBinDir2 ::
+    GHC.Exception.SomeException
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 2, Strictness: <S,1*U><S,U>,
+     Unfolding: (\ (e1 :: GHC.Exception.SomeException)[OneShot]
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case e1 of wild { GHC.Exception.SomeException e2 $dException1 e3 ->
+                 case Data.Typeable.Internal.typeRepFingerprint
+                        @ *
+                        @ e2
+                        (GHC.Exception.$p1Exception @ e2 $dException1)
+                          `cast`
+                        (Data.Typeable.Internal.N:Typeable[0] <*>_N <e2>_N) of wild1 { GHC.Fingerprint.Type.Fingerprint dt dt1 ->
+                 case GHC.IO.Exception.$fExceptionIOException4 of wild2 { GHC.Fingerprint.Type.Fingerprint dt2 dt3 ->
+                 case GHC.Prim.eqWord# dt dt2 of lwild {
+                   DEFAULT
+                   -> GHC.Prim.raiseIO#
+                        @ GHC.Exception.SomeException
+                        @ GHC.Base.String
+                        wild
+                        eta
+                   1#
+                   -> case GHC.Prim.eqWord# dt1 dt3 of lwild1 {
+                        DEFAULT
+                        -> GHC.Prim.raiseIO#
+                             @ GHC.Exception.SomeException
+                             @ GHC.Base.String
+                             wild
+                             eta
+                        1# -> (# eta, Paths_collatz_conjecture.getBinDir3 #) } } } } }) -}
+482c6781bb0595c921f8e928fdff5750
+  getBinDir3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Paths_collatz_conjecture.getBinDir4) -}
+ce890ce1821b16c4cb84a87ed2f90de3
+  getBinDir4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("/Users/mmarcus/Exercism/haskell/collatz-conjecture/.stack-work/install/x86_64-osx/lts-12.4/8.4.3/bin"#) -}
+a6f32fb1677d2016683dde82e6e974d5
+  getBinDir5 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case (GHC.Magic.noinline
+                         @ (GHC.Types.IO GHC.IO.Encoding.Types.TextEncoding)
+                         GHC.IO.Encoding.getForeignEncoding)
+                        `cast`
+                      (GHC.Types.N:IO[0] <GHC.IO.Encoding.Types.TextEncoding>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.Foreign.charIsRepresentable3
+                        @ (GHC.Base.Maybe GHC.Base.String)
+                        ipv1
+                        Paths_collatz_conjecture.getBinDir6
+                        System.Environment.getEnv3
+                          `cast`
+                        (<Foreign.C.String.CString>_R
+                         ->_R Sym (GHC.Types.N:IO[0] <GHC.Base.Maybe GHC.Base.String>_R))
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case ipv3 of wild {
+                   GHC.Base.Nothing
+                   -> System.Environment.getEnv2
+                        ipv2
+                        Paths_collatz_conjecture.getBinDir6
+                   GHC.Base.Just x -> (# ipv2, x #) } } }) -}
+eb8583945642e17d05e80c99ca461d51
+  getBinDir6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Paths_collatz_conjecture.getBinDir7) -}
+3cc04027169aa29ae50057196ba4c3d2
+  getBinDir7 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("collatz_conjecture_bindir"#) -}
+0e6c8be20a4f6238999c9d5f9d972722
+  getDataDir :: GHC.Types.IO GHC.IO.FilePath
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Paths_collatz_conjecture.getDataDir1
+                  `cast`
+                (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
+1e3a333e9f48ef343cf27602314263b4
+  getDataDir1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (eta :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 GHC.Prim.catch#
+                   @ GHC.Base.String
+                   @ GHC.Exception.SomeException
+                   Paths_collatz_conjecture.getDataDir5
+                   Paths_collatz_conjecture.getDataDir2
+                   eta) -}
+d543e8a1554de4508cc36a41ef6a11dc
+  getDataDir2 ::
+    GHC.Exception.SomeException
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 2, Strictness: <S,1*U><S,U>,
+     Unfolding: (\ (e1 :: GHC.Exception.SomeException)[OneShot]
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case e1 of wild { GHC.Exception.SomeException e2 $dException1 e3 ->
+                 case Data.Typeable.Internal.typeRepFingerprint
+                        @ *
+                        @ e2
+                        (GHC.Exception.$p1Exception @ e2 $dException1)
+                          `cast`
+                        (Data.Typeable.Internal.N:Typeable[0] <*>_N <e2>_N) of wild1 { GHC.Fingerprint.Type.Fingerprint dt dt1 ->
+                 case GHC.IO.Exception.$fExceptionIOException4 of wild2 { GHC.Fingerprint.Type.Fingerprint dt2 dt3 ->
+                 case GHC.Prim.eqWord# dt dt2 of lwild {
+                   DEFAULT
+                   -> GHC.Prim.raiseIO#
+                        @ GHC.Exception.SomeException
+                        @ GHC.Base.String
+                        wild
+                        eta
+                   1#
+                   -> case GHC.Prim.eqWord# dt1 dt3 of lwild1 {
+                        DEFAULT
+                        -> GHC.Prim.raiseIO#
+                             @ GHC.Exception.SomeException
+                             @ GHC.Base.String
+                             wild
+                             eta
+                        1# -> (# eta, Paths_collatz_conjecture.getDataDir3 #) } } } } }) -}
+7b990f82644ef40ed832e057d9d61a05
+  getDataDir3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Paths_collatz_conjecture.getDataDir4) -}
+69f8fea8270620f9a585a0056e44bb18
+  getDataDir4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("/Users/mmarcus/Exercism/haskell/collatz-conjecture/.stack-work/install/x86_64-osx/lts-12.4/8.4.3/share/x86_64-osx-ghc-8.4.3/collatz-conjecture-1.2.0.2"#) -}
+37f7083936c5a12703bdb27c92f5be2c
+  getDataDir5 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case (GHC.Magic.noinline
+                         @ (GHC.Types.IO GHC.IO.Encoding.Types.TextEncoding)
+                         GHC.IO.Encoding.getForeignEncoding)
+                        `cast`
+                      (GHC.Types.N:IO[0] <GHC.IO.Encoding.Types.TextEncoding>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.Foreign.charIsRepresentable3
+                        @ (GHC.Base.Maybe GHC.Base.String)
+                        ipv1
+                        Paths_collatz_conjecture.getDataDir6
+                        System.Environment.getEnv3
+                          `cast`
+                        (<Foreign.C.String.CString>_R
+                         ->_R Sym (GHC.Types.N:IO[0] <GHC.Base.Maybe GHC.Base.String>_R))
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case ipv3 of wild {
+                   GHC.Base.Nothing
+                   -> System.Environment.getEnv2
+                        ipv2
+                        Paths_collatz_conjecture.getDataDir6
+                   GHC.Base.Just x -> (# ipv2, x #) } } }) -}
+10f412159a25b254806091d0ebf192c0
+  getDataDir6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Paths_collatz_conjecture.getDataDir7) -}
+7d07bcc4ac9cf4e22ea6b7c95ab0258b
+  getDataDir7 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("collatz_conjecture_datadir"#) -}
+182aa06860866a1c3e495e3780873fb9
+  getDataFileName :: GHC.IO.FilePath -> GHC.Types.IO GHC.IO.FilePath
+  {- Arity: 2, Strictness: <L,U><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Paths_collatz_conjecture.getDataFileName1
+                  `cast`
+                (<GHC.IO.FilePath>_R
+                 ->_R Sym (GHC.Types.N:IO[0] <GHC.IO.FilePath>_R)) -}
+4b95d9580b213996035e2b508d4da185
+  getDataFileName1 ::
+    GHC.IO.FilePath
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.IO.FilePath #)
+  {- Arity: 2, Strictness: <L,U><S,U>,
+     Unfolding: (\ (name :: GHC.IO.FilePath)
+                   (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case GHC.Prim.catch#
+                        @ GHC.Base.String
+                        @ GHC.Exception.SomeException
+                        Paths_collatz_conjecture.getDataDir5
+                        Paths_collatz_conjecture.getDataDir2
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 (# ipv,
+                    GHC.Base.++
+                      @ GHC.Types.Char
+                      ipv1
+                      (GHC.CString.unpackAppendCString#
+                         Paths_collatz_conjecture.getDataFileName2
+                         name) #) }) -}
+2da0ca69a7155b41432a84df9ac3c9d3
+  getDataFileName2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("/"#) -}
+33d1ca3eefe64bec1cbb0b94c78a55bb
+  getDynLibDir :: GHC.Types.IO GHC.IO.FilePath
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Paths_collatz_conjecture.getDynLibDir1
+                  `cast`
+                (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
+ca7dd7744b112e60d74fd9247aef5c3e
+  getDynLibDir1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (eta :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 GHC.Prim.catch#
+                   @ GHC.Base.String
+                   @ GHC.Exception.SomeException
+                   Paths_collatz_conjecture.getDynLibDir5
+                   Paths_collatz_conjecture.getDynLibDir2
+                   eta) -}
+7036ab9b5bcb89f62cebbfb6b5426606
+  getDynLibDir2 ::
+    GHC.Exception.SomeException
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 2, Strictness: <S,1*U><S,U>,
+     Unfolding: (\ (e1 :: GHC.Exception.SomeException)[OneShot]
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case e1 of wild { GHC.Exception.SomeException e2 $dException1 e3 ->
+                 case Data.Typeable.Internal.typeRepFingerprint
+                        @ *
+                        @ e2
+                        (GHC.Exception.$p1Exception @ e2 $dException1)
+                          `cast`
+                        (Data.Typeable.Internal.N:Typeable[0] <*>_N <e2>_N) of wild1 { GHC.Fingerprint.Type.Fingerprint dt dt1 ->
+                 case GHC.IO.Exception.$fExceptionIOException4 of wild2 { GHC.Fingerprint.Type.Fingerprint dt2 dt3 ->
+                 case GHC.Prim.eqWord# dt dt2 of lwild {
+                   DEFAULT
+                   -> GHC.Prim.raiseIO#
+                        @ GHC.Exception.SomeException
+                        @ GHC.Base.String
+                        wild
+                        eta
+                   1#
+                   -> case GHC.Prim.eqWord# dt1 dt3 of lwild1 {
+                        DEFAULT
+                        -> GHC.Prim.raiseIO#
+                             @ GHC.Exception.SomeException
+                             @ GHC.Base.String
+                             wild
+                             eta
+                        1#
+                        -> (# eta, Paths_collatz_conjecture.getDynLibDir3 #) } } } } }) -}
+f4d2a6df4b68179b2f5456eb83606d69
+  getDynLibDir3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Paths_collatz_conjecture.getDynLibDir4) -}
+760b261a82360e1687d269d49f58f8fe
+  getDynLibDir4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("/Users/mmarcus/Exercism/haskell/collatz-conjecture/.stack-work/install/x86_64-osx/lts-12.4/8.4.3/lib/x86_64-osx-ghc-8.4.3"#) -}
+eb57eb9d2f2b13c7dbeffab350e69e2e
+  getDynLibDir5 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case (GHC.Magic.noinline
+                         @ (GHC.Types.IO GHC.IO.Encoding.Types.TextEncoding)
+                         GHC.IO.Encoding.getForeignEncoding)
+                        `cast`
+                      (GHC.Types.N:IO[0] <GHC.IO.Encoding.Types.TextEncoding>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.Foreign.charIsRepresentable3
+                        @ (GHC.Base.Maybe GHC.Base.String)
+                        ipv1
+                        Paths_collatz_conjecture.getDynLibDir6
+                        System.Environment.getEnv3
+                          `cast`
+                        (<Foreign.C.String.CString>_R
+                         ->_R Sym (GHC.Types.N:IO[0] <GHC.Base.Maybe GHC.Base.String>_R))
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case ipv3 of wild {
+                   GHC.Base.Nothing
+                   -> System.Environment.getEnv2
+                        ipv2
+                        Paths_collatz_conjecture.getDynLibDir6
+                   GHC.Base.Just x -> (# ipv2, x #) } } }) -}
+2fa88d79e8f3b0a38f29eed88f1da918
+  getDynLibDir6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Paths_collatz_conjecture.getDynLibDir7) -}
+fa8cb9273c0f05a77a26e099fa3da6fd
+  getDynLibDir7 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("collatz_conjecture_dynlibdir"#) -}
+ec310128b914411b4d1960379b783806
+  getLibDir :: GHC.Types.IO GHC.IO.FilePath
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Paths_collatz_conjecture.getLibDir1
+                  `cast`
+                (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
+0e90e78d01c7a893ce7d38be0c46a0e7
+  getLibDir1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (eta :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 GHC.Prim.catch#
+                   @ GHC.Base.String
+                   @ GHC.Exception.SomeException
+                   Paths_collatz_conjecture.getLibDir5
+                   Paths_collatz_conjecture.getLibDir2
+                   eta) -}
+6b611662ce01817b6b28845bf53a4b73
+  getLibDir2 ::
+    GHC.Exception.SomeException
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 2, Strictness: <S,1*U><S,U>,
+     Unfolding: (\ (e1 :: GHC.Exception.SomeException)[OneShot]
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case e1 of wild { GHC.Exception.SomeException e2 $dException1 e3 ->
+                 case Data.Typeable.Internal.typeRepFingerprint
+                        @ *
+                        @ e2
+                        (GHC.Exception.$p1Exception @ e2 $dException1)
+                          `cast`
+                        (Data.Typeable.Internal.N:Typeable[0] <*>_N <e2>_N) of wild1 { GHC.Fingerprint.Type.Fingerprint dt dt1 ->
+                 case GHC.IO.Exception.$fExceptionIOException4 of wild2 { GHC.Fingerprint.Type.Fingerprint dt2 dt3 ->
+                 case GHC.Prim.eqWord# dt dt2 of lwild {
+                   DEFAULT
+                   -> GHC.Prim.raiseIO#
+                        @ GHC.Exception.SomeException
+                        @ GHC.Base.String
+                        wild
+                        eta
+                   1#
+                   -> case GHC.Prim.eqWord# dt1 dt3 of lwild1 {
+                        DEFAULT
+                        -> GHC.Prim.raiseIO#
+                             @ GHC.Exception.SomeException
+                             @ GHC.Base.String
+                             wild
+                             eta
+                        1# -> (# eta, Paths_collatz_conjecture.getLibDir3 #) } } } } }) -}
+0520aa0c2cc6e5347c5d1d5f4f851266
+  getLibDir3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Paths_collatz_conjecture.getLibDir4) -}
+3209902a49f0a6deea456e35c2882935
+  getLibDir4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("/Users/mmarcus/Exercism/haskell/collatz-conjecture/.stack-work/install/x86_64-osx/lts-12.4/8.4.3/lib/x86_64-osx-ghc-8.4.3/collatz-conjecture-1.2.0.2-1PQCb7OMxMYzXEQ6Aneuc-test"#) -}
+e92abad4ae5d7eb9b9a309136cd3e484
+  getLibDir5 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case (GHC.Magic.noinline
+                         @ (GHC.Types.IO GHC.IO.Encoding.Types.TextEncoding)
+                         GHC.IO.Encoding.getForeignEncoding)
+                        `cast`
+                      (GHC.Types.N:IO[0] <GHC.IO.Encoding.Types.TextEncoding>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.Foreign.charIsRepresentable3
+                        @ (GHC.Base.Maybe GHC.Base.String)
+                        ipv1
+                        Paths_collatz_conjecture.getLibDir6
+                        System.Environment.getEnv3
+                          `cast`
+                        (<Foreign.C.String.CString>_R
+                         ->_R Sym (GHC.Types.N:IO[0] <GHC.Base.Maybe GHC.Base.String>_R))
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case ipv3 of wild {
+                   GHC.Base.Nothing
+                   -> System.Environment.getEnv2
+                        ipv2
+                        Paths_collatz_conjecture.getLibDir6
+                   GHC.Base.Just x -> (# ipv2, x #) } } }) -}
+ffb85d7228f9d10868288ae38260748b
+  getLibDir6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Paths_collatz_conjecture.getLibDir7) -}
+d9cb4d9cf0fa192f152f91900b567b28
+  getLibDir7 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("collatz_conjecture_libdir"#) -}
+957cf60f55d99f5b39e9c9f1d0f429c4
+  getLibexecDir :: GHC.Types.IO GHC.IO.FilePath
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Paths_collatz_conjecture.getLibexecDir1
+                  `cast`
+                (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
+a3f2f9fe2388b4d35b53c5ebd4375662
+  getLibexecDir1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (eta :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 GHC.Prim.catch#
+                   @ GHC.Base.String
+                   @ GHC.Exception.SomeException
+                   Paths_collatz_conjecture.getLibexecDir5
+                   Paths_collatz_conjecture.getLibexecDir2
+                   eta) -}
+f23280edf518de237d68aa91f5016520
+  getLibexecDir2 ::
+    GHC.Exception.SomeException
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 2, Strictness: <S,1*U><S,U>,
+     Unfolding: (\ (e1 :: GHC.Exception.SomeException)[OneShot]
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case e1 of wild { GHC.Exception.SomeException e2 $dException1 e3 ->
+                 case Data.Typeable.Internal.typeRepFingerprint
+                        @ *
+                        @ e2
+                        (GHC.Exception.$p1Exception @ e2 $dException1)
+                          `cast`
+                        (Data.Typeable.Internal.N:Typeable[0] <*>_N <e2>_N) of wild1 { GHC.Fingerprint.Type.Fingerprint dt dt1 ->
+                 case GHC.IO.Exception.$fExceptionIOException4 of wild2 { GHC.Fingerprint.Type.Fingerprint dt2 dt3 ->
+                 case GHC.Prim.eqWord# dt dt2 of lwild {
+                   DEFAULT
+                   -> GHC.Prim.raiseIO#
+                        @ GHC.Exception.SomeException
+                        @ GHC.Base.String
+                        wild
+                        eta
+                   1#
+                   -> case GHC.Prim.eqWord# dt1 dt3 of lwild1 {
+                        DEFAULT
+                        -> GHC.Prim.raiseIO#
+                             @ GHC.Exception.SomeException
+                             @ GHC.Base.String
+                             wild
+                             eta
+                        1#
+                        -> (# eta, Paths_collatz_conjecture.getLibexecDir3 #) } } } } }) -}
+e9f305e09de88199e894f6c2dd8ae0dd
+  getLibexecDir3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Paths_collatz_conjecture.getLibexecDir4) -}
+8ccba638e610f740b9df4022e25ff3ed
+  getLibexecDir4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("/Users/mmarcus/Exercism/haskell/collatz-conjecture/.stack-work/install/x86_64-osx/lts-12.4/8.4.3/libexec/x86_64-osx-ghc-8.4.3/collatz-conjecture-1.2.0.2"#) -}
+ac8bf7276be74522e16bac4b96704b5f
+  getLibexecDir5 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case (GHC.Magic.noinline
+                         @ (GHC.Types.IO GHC.IO.Encoding.Types.TextEncoding)
+                         GHC.IO.Encoding.getForeignEncoding)
+                        `cast`
+                      (GHC.Types.N:IO[0] <GHC.IO.Encoding.Types.TextEncoding>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.Foreign.charIsRepresentable3
+                        @ (GHC.Base.Maybe GHC.Base.String)
+                        ipv1
+                        Paths_collatz_conjecture.getLibexecDir6
+                        System.Environment.getEnv3
+                          `cast`
+                        (<Foreign.C.String.CString>_R
+                         ->_R Sym (GHC.Types.N:IO[0] <GHC.Base.Maybe GHC.Base.String>_R))
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case ipv3 of wild {
+                   GHC.Base.Nothing
+                   -> System.Environment.getEnv2
+                        ipv2
+                        Paths_collatz_conjecture.getLibexecDir6
+                   GHC.Base.Just x -> (# ipv2, x #) } } }) -}
+6ba3a4a920b4a6e544a603f84f113ef4
+  getLibexecDir6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Paths_collatz_conjecture.getLibexecDir7) -}
+55cf99a292db1af0b5b204ebd288353b
+  getLibexecDir7 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("collatz_conjecture_libexecdir"#) -}
+2e4557f99c4c02a03275335345035bd0
+  getSysconfDir :: GHC.Types.IO GHC.IO.FilePath
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Paths_collatz_conjecture.getSysconfDir1
+                  `cast`
+                (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
+55c20f6509e0b8aee0493f22adba3a4a
+  getSysconfDir1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (eta :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 GHC.Prim.catch#
+                   @ GHC.Base.String
+                   @ GHC.Exception.SomeException
+                   Paths_collatz_conjecture.getSysconfDir5
+                   Paths_collatz_conjecture.getSysconfDir2
+                   eta) -}
+1ef178b0a5720a8060e23be9d12e1d50
+  getSysconfDir2 ::
+    GHC.Exception.SomeException
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 2, Strictness: <S,1*U><S,U>,
+     Unfolding: (\ (e1 :: GHC.Exception.SomeException)[OneShot]
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case e1 of wild { GHC.Exception.SomeException e2 $dException1 e3 ->
+                 case Data.Typeable.Internal.typeRepFingerprint
+                        @ *
+                        @ e2
+                        (GHC.Exception.$p1Exception @ e2 $dException1)
+                          `cast`
+                        (Data.Typeable.Internal.N:Typeable[0] <*>_N <e2>_N) of wild1 { GHC.Fingerprint.Type.Fingerprint dt dt1 ->
+                 case GHC.IO.Exception.$fExceptionIOException4 of wild2 { GHC.Fingerprint.Type.Fingerprint dt2 dt3 ->
+                 case GHC.Prim.eqWord# dt dt2 of lwild {
+                   DEFAULT
+                   -> GHC.Prim.raiseIO#
+                        @ GHC.Exception.SomeException
+                        @ GHC.Base.String
+                        wild
+                        eta
+                   1#
+                   -> case GHC.Prim.eqWord# dt1 dt3 of lwild1 {
+                        DEFAULT
+                        -> GHC.Prim.raiseIO#
+                             @ GHC.Exception.SomeException
+                             @ GHC.Base.String
+                             wild
+                             eta
+                        1#
+                        -> (# eta, Paths_collatz_conjecture.getSysconfDir3 #) } } } } }) -}
+8a819e251695da86e0adc322e950e52a
+  getSysconfDir3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Paths_collatz_conjecture.getSysconfDir4) -}
+ddf2c9a4b97c231193fc9bb146fd347d
+  getSysconfDir4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("/Users/mmarcus/Exercism/haskell/collatz-conjecture/.stack-work/install/x86_64-osx/lts-12.4/8.4.3/etc"#) -}
+70cb3ae9fbb7cf70b37b5680b8b0fee1
+  getSysconfDir5 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case (GHC.Magic.noinline
+                         @ (GHC.Types.IO GHC.IO.Encoding.Types.TextEncoding)
+                         GHC.IO.Encoding.getForeignEncoding)
+                        `cast`
+                      (GHC.Types.N:IO[0] <GHC.IO.Encoding.Types.TextEncoding>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.Foreign.charIsRepresentable3
+                        @ (GHC.Base.Maybe GHC.Base.String)
+                        ipv1
+                        Paths_collatz_conjecture.getSysconfDir6
+                        System.Environment.getEnv3
+                          `cast`
+                        (<Foreign.C.String.CString>_R
+                         ->_R Sym (GHC.Types.N:IO[0] <GHC.Base.Maybe GHC.Base.String>_R))
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case ipv3 of wild {
+                   GHC.Base.Nothing
+                   -> System.Environment.getEnv2
+                        ipv2
+                        Paths_collatz_conjecture.getSysconfDir6
+                   GHC.Base.Just x -> (# ipv2, x #) } } }) -}
+31f1352277666f1089d07daf3f160eaf
+  getSysconfDir6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Paths_collatz_conjecture.getSysconfDir7) -}
+e879cddf9ed9e1cf70f609df740e92c3
+  getSysconfDir7 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("collatz_conjecture_sysconfdir"#) -}
+e916f59a361298e8e1226c0913e708b4
+  version :: Data.Version.Version
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (Data.Version.Version
+                   Paths_collatz_conjecture.version1
+                   (GHC.Types.[] @ GHC.Base.String)) -}
+5fc36c1655b8c71787f3ec60de270af2
+  version1 :: [GHC.Types.Int]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Int
+                   Paths_collatz_conjecture.version7
+                   Paths_collatz_conjecture.version2) -}
+2748beafa56157c103f5401ed8f25f3a
+  version2 :: [GHC.Types.Int]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Int
+                   Paths_collatz_conjecture.version5
+                   Paths_collatz_conjecture.version3) -}
+9bef183842ecb76a432dcc5e4639a482
+  version3 :: [GHC.Types.Int]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Int
+                   Paths_collatz_conjecture.version6
+                   Paths_collatz_conjecture.version4) -}
+890e269684fd346ff2e13377d3ea081b
+  version4 :: [GHC.Types.Int]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Int
+                   Paths_collatz_conjecture.version5
+                   (GHC.Types.[] @ GHC.Types.Int)) -}
+266e4c630fac786219b5a979204ec81a
+  version5 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 2#) -}
+9304768706b0bc312d83876fcacf4253
+  version6 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
+fdc1b45db0434b32ac76b405cfdcc805
+  version7 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 1#) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

@@ -1,0 +1,148 @@
+
+==================== FINAL INTERFACE ====================
+2018-08-31 10:40:47.119749 UTC
+
+interface bob-1.2.0.5-CoMZ58Go4Kb3bszQ0ejwen:Bob 8043
+  interface hash: fbe87f74e7b8cd29b8bef94e69cab28b
+  ABI hash: 3fef925732dfe753556c60bc31711edf
+  export-list hash: 4edf4def49e153d6e089c2874fd32d2e
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 8f52f5e5828eb5661f405d8d9ca450ec
+  opt_hash: 14e536840aca4e889cad654e6f9b79c1
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Bob.responseFor
+module dependencies:
+package dependencies: base-4.11.1.0* ghc-prim-0.5.2.0
+                      integer-gmp-1.0.2.0
+orphans: base-4.11.1.0:GHC.Float base-4.11.1.0:GHC.Base
+family instance modules: base-4.11.1.0:Control.Applicative
+                         base-4.11.1.0:Data.Functor.Const
+                         base-4.11.1.0:Data.Functor.Identity base-4.11.1.0:Data.Monoid
+                         base-4.11.1.0:Data.Semigroup.Internal base-4.11.1.0:GHC.Generics
+                         base-4.11.1.0:GHC.IO.Exception
+import  -/  base-4.11.1.0:Data.Char 3e89818e2b8ef1a2cc5393163484da72
+import  -/  base-4.11.1.0:Data.Foldable 8ed35c38958063956af33c935ea03444
+import  -/  base-4.11.1.0:Data.List 83dc843e47bfc0c5af51e19c6f3476d5
+import  -/  base-4.11.1.0:Data.OldList 1b35aa3c6805ff7c8887a35a866fe006
+import  -/  base-4.11.1.0:GHC.Base 604111500e81281298777e721c75643b
+import  -/  base-4.11.1.0:GHC.List 1e4357702d8d00cded0703bd293e50e8
+import  -/  base-4.11.1.0:GHC.Unicode 8234c40b59f035e845832a42e8725a00
+import  -/  base-4.11.1.0:Prelude 0750c25585e2b797cd78291d423d39dd
+import  -/  ghc-prim-0.5.2.0:GHC.Classes 122abfcd7450c6c11602933c9ca5f80d
+956fbc79597c10894bbbdfa12928d8af
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module Bob.$trModule3 Bob.$trModule1) -}
+5795cac0cd992426250bb8073e75fb89
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Bob.$trModule2) -}
+e7061dcd344647f370189a3908911fdc
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Bob"#) -}
+839d2970d707a141143fa86208c759bf
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Bob.$trModule4) -}
+ba31d020f2e1874f091982a7d9fe3ba1
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("bob-1.2.0.5-CoMZ58Go4Kb3bszQ0ejwen"#) -}
+295e162010350429565c1a9aec30ad51
+  responseFor :: GHC.Base.String -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (xs :: GHC.Base.String) ->
+                 case GHC.List.dropWhile
+                        @ GHC.Types.Char
+                        GHC.Unicode.isSpace
+                        (Bob.responseFor_go1 xs) of wild {
+                   [] -> Bob.responseFor5
+                   : ds1 ds2
+                   -> let {
+                        $j :: [GHC.Types.Char] <join 0>
+                        = case Bob.responseFor_isShouting wild of wild1 {
+                            GHC.Types.False
+                            -> Bob.responseFor_go wild (GHC.List.lastError @ GHC.Types.Char)
+                            GHC.Types.True -> Bob.responseFor3 }
+                      } in
+                      case Bob.responseFor_isShouting wild of wild1 {
+                        GHC.Types.False -> $j
+                        GHC.Types.True
+                        -> let {
+                             exit :: GHC.Types.Char -> [GHC.Types.Char]
+                               <join 1> {- Arity: 1, Strictness: <S(S),1*U(1*U)> -}
+                             = \ (eta :: GHC.Types.Char)[OneShot] ->
+                               case eta of wild2 { GHC.Types.C# x ->
+                               case x of wild3 { DEFAULT -> $j '?'# -> Bob.responseFor1 } }
+                           } in
+                           letrec {
+                             go :: [GHC.Types.Char] -> GHC.Types.Char -> [GHC.Types.Char]
+                               <join 2> {- Arity: 2, Strictness: <S,1*U><L,1*U(1*U)> -}
+                             = \ (ds :: [GHC.Types.Char]) (eta :: GHC.Types.Char) ->
+                               case ds of wild2 { [] -> exit eta : y ys -> go ys y }
+                           } in
+                           go wild (GHC.List.lastError @ GHC.Types.Char) } }) -}
+f4b33536597bdc483a38e9ade0c4841c
+  responseFor1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Bob.responseFor2) -}
+6316db74b7d0d007e58696568acd13af
+  responseFor2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("Calm down, I know what I'm doing!"#) -}
+416d0929363649c0fc2f8325906853ee
+  responseFor3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Bob.responseFor4) -}
+2ed054a48d4d6ebff0e9fb589e1a1d75
+  responseFor4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Whoa, chill out!"#) -}
+5e4ac218ba76730927e871cf8e3108c1
+  responseFor5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Bob.responseFor6) -}
+573a590587d55b5e7c758989afba017d
+  responseFor6 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Fine. Be that way!"#) -}
+b83677575bdf334f6ab9478296baafc8
+  responseFor_go ::
+    [GHC.Types.Char] -> GHC.Types.Char -> [GHC.Types.Char]
+  {- Arity: 2, Strictness: <S,1*U><L,1*U(1*U)> -}
+e14151cdbd2032aea8f3bab118b53808
+  responseFor_go1 :: [GHC.Types.Char] -> [GHC.Types.Char]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U> -}
+a1ec25f2f98d9a3552b41f65b6a49fc2
+  responseFor_isShouting :: [GHC.Types.Char] -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (xs :: [GHC.Types.Char]) ->
+                 case GHC.Base.eqString
+                        xs
+                        (GHC.Base.map
+                           @ GHC.Types.Char
+                           @ GHC.Types.Char
+                           GHC.Unicode.toUpper
+                           xs) of wild {
+                   GHC.Types.False -> GHC.Types.False
+                   GHC.Types.True
+                   -> case GHC.Base.eqString
+                             (GHC.Base.map
+                                @ GHC.Types.Char
+                                @ GHC.Types.Char
+                                GHC.Unicode.toUpper
+                                xs)
+                             (GHC.Base.map
+                                @ GHC.Types.Char
+                                @ GHC.Types.Char
+                                GHC.Unicode.toLower
+                                xs) of wild1 {
+                        GHC.Types.False -> GHC.Types.True
+                        GHC.Types.True -> GHC.Types.False } }) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+
