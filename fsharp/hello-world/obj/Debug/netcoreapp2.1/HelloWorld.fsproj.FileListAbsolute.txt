@@ -1,0 +1,13 @@
+/Users/mmarcus/Exercism/fsharp/hello-world/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/mmarcus/Exercism/fsharp/hello-world/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/mmarcus/Exercism/fsharp/hello-world/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/mmarcus/Exercism/fsharp/hello-world/bin/Debug/netcoreapp2.1/HelloWorld.deps.json
+/Users/mmarcus/Exercism/fsharp/hello-world/bin/Debug/netcoreapp2.1/HelloWorld.runtimeconfig.json
+/Users/mmarcus/Exercism/fsharp/hello-world/bin/Debug/netcoreapp2.1/HelloWorld.runtimeconfig.dev.json
+/Users/mmarcus/Exercism/fsharp/hello-world/bin/Debug/netcoreapp2.1/HelloWorld.dll
+/Users/mmarcus/Exercism/fsharp/hello-world/bin/Debug/netcoreapp2.1/HelloWorld.pdb
+/Users/mmarcus/Exercism/fsharp/hello-world/obj/Debug/netcoreapp2.1/HelloWorld.fsprojAssemblyReference.cache
+/Users/mmarcus/Exercism/fsharp/hello-world/obj/Debug/netcoreapp2.1/HelloWorld.AssemblyInfoInputs.cache
+/Users/mmarcus/Exercism/fsharp/hello-world/obj/Debug/netcoreapp2.1/HelloWorld.AssemblyInfo.fs
+/Users/mmarcus/Exercism/fsharp/hello-world/obj/Debug/netcoreapp2.1/HelloWorld.dll
+/Users/mmarcus/Exercism/fsharp/hello-world/obj/Debug/netcoreapp2.1/HelloWorld.pdb

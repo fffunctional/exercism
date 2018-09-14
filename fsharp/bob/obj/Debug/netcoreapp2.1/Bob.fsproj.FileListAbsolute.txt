@@ -1,0 +1,13 @@
+/Users/mmarcus/Exercism/fsharp/bob/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/mmarcus/Exercism/fsharp/bob/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/mmarcus/Exercism/fsharp/bob/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/mmarcus/Exercism/fsharp/bob/bin/Debug/netcoreapp2.1/Bob.deps.json
+/Users/mmarcus/Exercism/fsharp/bob/bin/Debug/netcoreapp2.1/Bob.runtimeconfig.json
+/Users/mmarcus/Exercism/fsharp/bob/bin/Debug/netcoreapp2.1/Bob.runtimeconfig.dev.json
+/Users/mmarcus/Exercism/fsharp/bob/bin/Debug/netcoreapp2.1/Bob.dll
+/Users/mmarcus/Exercism/fsharp/bob/bin/Debug/netcoreapp2.1/Bob.pdb
+/Users/mmarcus/Exercism/fsharp/bob/obj/Debug/netcoreapp2.1/Bob.fsprojAssemblyReference.cache
+/Users/mmarcus/Exercism/fsharp/bob/obj/Debug/netcoreapp2.1/Bob.AssemblyInfoInputs.cache
+/Users/mmarcus/Exercism/fsharp/bob/obj/Debug/netcoreapp2.1/Bob.AssemblyInfo.fs
+/Users/mmarcus/Exercism/fsharp/bob/obj/Debug/netcoreapp2.1/Bob.dll
+/Users/mmarcus/Exercism/fsharp/bob/obj/Debug/netcoreapp2.1/Bob.pdb
