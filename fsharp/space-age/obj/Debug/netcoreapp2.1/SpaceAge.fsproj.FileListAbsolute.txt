@@ -1,0 +1,13 @@
+/Users/mmarcus/Exercism/fsharp/space-age/obj/Debug/netcoreapp2.1/SpaceAge.fsprojAssemblyReference.cache
+/Users/mmarcus/Exercism/fsharp/space-age/obj/Debug/netcoreapp2.1/SpaceAge.AssemblyInfoInputs.cache
+/Users/mmarcus/Exercism/fsharp/space-age/obj/Debug/netcoreapp2.1/SpaceAge.AssemblyInfo.fs
+/Users/mmarcus/Exercism/fsharp/space-age/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/mmarcus/Exercism/fsharp/space-age/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/mmarcus/Exercism/fsharp/space-age/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/mmarcus/Exercism/fsharp/space-age/bin/Debug/netcoreapp2.1/SpaceAge.deps.json
+/Users/mmarcus/Exercism/fsharp/space-age/bin/Debug/netcoreapp2.1/SpaceAge.runtimeconfig.json
+/Users/mmarcus/Exercism/fsharp/space-age/bin/Debug/netcoreapp2.1/SpaceAge.runtimeconfig.dev.json
+/Users/mmarcus/Exercism/fsharp/space-age/bin/Debug/netcoreapp2.1/SpaceAge.dll
+/Users/mmarcus/Exercism/fsharp/space-age/bin/Debug/netcoreapp2.1/SpaceAge.pdb
+/Users/mmarcus/Exercism/fsharp/space-age/obj/Debug/netcoreapp2.1/SpaceAge.dll
+/Users/mmarcus/Exercism/fsharp/space-age/obj/Debug/netcoreapp2.1/SpaceAge.pdb
