@@ -3,24 +3,30 @@ defmodule BeerSong do
   Get a single verse of the beer song
   """
   @spec verse(integer) :: String.t()
-  def verse(0) do
-    "No more bottles of beer on the wall, no more bottles of beer.\n" <>
-    "Go to the store and buy some more, 99 bottles of beer on the wall.\n"
-  end
-  def verse(1) do
-    "1 bottle of beer on the wall, 1 bottle of beer.\n" <>
-    "Take it down and pass it around, no more bottles of beer on the wall.\n"
-  end
-  def verse(2) do
-    "2 bottles of beer on the wall, 2 bottles of beer.\n" <>
-    "Take one down and pass it around, 1 bottle of beer on the wall.\n"
-  end
   def verse(number) do
-    numStr = Integer.to_string(number)
-    nextNumStr = Integer.to_string(number - 1)
-    numStr <> " bottles of beer on the wall, " <> numStr <> " bottles of beer.\n" <>
-    "Take one down and pass it around, " <> nextNumStr <> " bottles of beer on the wall.\n"
+    how_many = how_many number
+    bottles  = bottles number
+    instruction = instruction number
+    next_num    = how_many (number - 1)
+    next_bottles = bottles (number - 1)
+
+    String.capitalize(how_many) <>
+    bottles <> " of beer on the wall, " <>
+    how_many <> bottles <> " of beer.\n" <>
+    instruction <> next_num <>
+    next_bottles <> " of beer on the wall.\n"
   end
+
+  defp how_many(0), do: "no more"
+  defp how_many(n) when n < 0, do: "99"
+  defp how_many(n), do: Integer.to_string n
+
+  defp bottles(1), do: " bottle"
+  defp bottles(_), do: " bottles"
+
+  defp instruction(0), do: "Go to the store and buy some more, "
+  defp instruction(1), do: "Take it down and pass it around, "
+  defp instruction(_), do: "Take one down and pass it around, "
 
   @doc """
   Get the entire beer song for a given range of numbers of bottles.

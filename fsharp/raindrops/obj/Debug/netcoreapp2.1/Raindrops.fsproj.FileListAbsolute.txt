@@ -1,0 +1,13 @@
+/Users/mmarcus/Exercism/fsharp/raindrops/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/mmarcus/Exercism/fsharp/raindrops/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/mmarcus/Exercism/fsharp/raindrops/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/mmarcus/Exercism/fsharp/raindrops/bin/Debug/netcoreapp2.1/Raindrops.deps.json
+/Users/mmarcus/Exercism/fsharp/raindrops/bin/Debug/netcoreapp2.1/Raindrops.runtimeconfig.json
+/Users/mmarcus/Exercism/fsharp/raindrops/bin/Debug/netcoreapp2.1/Raindrops.runtimeconfig.dev.json
+/Users/mmarcus/Exercism/fsharp/raindrops/bin/Debug/netcoreapp2.1/Raindrops.dll
+/Users/mmarcus/Exercism/fsharp/raindrops/bin/Debug/netcoreapp2.1/Raindrops.pdb
+/Users/mmarcus/Exercism/fsharp/raindrops/obj/Debug/netcoreapp2.1/Raindrops.fsprojAssemblyReference.cache
+/Users/mmarcus/Exercism/fsharp/raindrops/obj/Debug/netcoreapp2.1/Raindrops.AssemblyInfoInputs.cache
+/Users/mmarcus/Exercism/fsharp/raindrops/obj/Debug/netcoreapp2.1/Raindrops.AssemblyInfo.fs
+/Users/mmarcus/Exercism/fsharp/raindrops/obj/Debug/netcoreapp2.1/Raindrops.dll
+/Users/mmarcus/Exercism/fsharp/raindrops/obj/Debug/netcoreapp2.1/Raindrops.pdb
